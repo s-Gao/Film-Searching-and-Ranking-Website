@@ -1,9 +1,9 @@
 <?php
     //1.connect
-    $dburl="cs4111.cywqzv2shvwz.us-east-1.rds.amazonaws.com";
-    $dbuser="sg3309";
-    $dbpassword="database";
-    $dbname="cs4111";
+    $dburl="";
+    $dbuser="";
+    $dbpassword="";
+    $dbname="";
     $connection = mysqli_connect($dburl,$dbuser,$dbpassword,$dbname);
     if(mysqli_connect_errno()){
         die("Database connection failed: ".mysqli_connect_error()."(".mysqli_connect_errno().")");
